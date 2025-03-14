@@ -51,7 +51,6 @@ Console.WriteLine("Hello, World!");
 
 
 
-
 //int[] ededler = { 12, 13, 14, 15, 16, 17, 18 };
 //int cem = 0;
 //foreach (int Num in nums) ;
@@ -73,10 +72,33 @@ Console.WriteLine("Hello, World!");
 
 
 
-int[] nums = { 1, 2, 3, 4, 5, 6 };
-int Sum = 0;
-for (int i = 0; i < nums.Length; i++)
+//int[] nums = { 1, 2, 3, 4, 5, 6 };
+//int Sum = 0;
+//for (int i = 0; i < nums.Length; i++)
+//{
+//    sum += nums[i];
+//}
+//Console.WriteLine("massivdeki elementlerin cemi");
+
+
+
+
+int number = 5;
+if (number > 10 || number < 99)
 {
-    sum += nums[i];
+    Console.WriteLine(" 10 ve 99 arasinda ikireqemli ededi yazin");
 }
-Console.WriteLine("massivdeki elementlerin cemi");
+int tens = number / 10;
+int units = number % 10;
+if (tens > units)
+{
+    Console.WriteLine("onluq mertebe tekliden boyukdur");
+}
+else if (units > tens)
+{
+    Console.WriteLine("teklik onluqdan boyukdur");
+}
+else
+{
+    Console.WriteLine("beraberdirler");
+}
