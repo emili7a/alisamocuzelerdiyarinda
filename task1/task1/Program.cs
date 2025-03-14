@@ -83,22 +83,39 @@ Console.WriteLine("Hello, World!");
 
 
 
-int number = 5;
-if (number > 10 || number < 99)
+//int number = 5;
+//if (number > 10 || number < 99)
+//{
+//    Console.WriteLine(" 10 ve 99 arasinda ikireqemli ededi yazin");
+//}
+//int tens = number / 10;
+//int units = number % 10;
+//if (tens > units)
+//{
+//    Console.WriteLine("onluq mertebe tekliden boyukdur");
+//}
+//else if (units > tens)
+//{
+//    Console.WriteLine("teklik onluqdan boyukdur");
+//}
+//else
+//{
+//    Console.WriteLine("beraberdirler");
+//}
+
+
+
+
+
+
+int num1 = 12;
+int num2 = 24;
+int sum = num1 + num2;
+if (num1 % 2 == 0 && num2 % 2 == 0)
 {
-    Console.WriteLine(" 10 ve 99 arasinda ikireqemli ededi yazin");
-}
-int tens = number / 10;
-int units = number % 10;
-if (tens > units)
-{
-    Console.WriteLine("onluq mertebe tekliden boyukdur");
-}
-else if (units > tens)
-{
-    Console.WriteLine("teklik onluqdan boyukdur");
+    Console.WriteLine("eded qaliqiz bolunur");
 }
 else
 {
-    Console.WriteLine("beraberdirler");
+    Console.WriteLine("daxil olan eded cut olmalidir");
 }
