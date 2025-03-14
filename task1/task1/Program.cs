@@ -52,12 +52,20 @@ Console.WriteLine("Hello, World!");
 
 
 
-int[] ededler = { 12, 13, 14, 15, 16, 17, 18 };
-int cem = 0;
-foreach (int Num in nums) ;
-{
-    sum += num;
-}
-double average = (double)sum / (double)nums.Length;
-Console.WriteLine("array elementlerinin orta qiymeti");
+//int[] ededler = { 12, 13, 14, 15, 16, 17, 18 };
+//int cem = 0;
+//foreach (int Num in nums) ;
+//{
+//    sum += num;
+//}
+//double average = (double)sum / (double)nums.Length;
+//Console.WriteLine("array elementlerinin orta qiymeti");
 
+
+int[] Nums = { 1, 2, 3, 4, 5, 6, 7, 8 };
+Console.WriteLine("arraydeki cut ededler");
+for (int i = 0; i < nums.Length; i++) ;
+if (num % 2 == 0)
+{
+    Console.WriteLine("eded");
+}
