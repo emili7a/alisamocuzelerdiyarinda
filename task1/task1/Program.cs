@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
 using System.Runtime.ExceptionServices;
+using System.Xml;
 
 Console.WriteLine("Hello, World!");
 
@@ -124,13 +125,29 @@ Console.WriteLine("Hello, World!");
 
 
 
-int[] array = { 3, 6, 9, 12, 15, 17, 21, 24, 27, 30 };
-int count = 0;
-foreach ( int num in array)
-if ( num % 2 !=0 && num % 3==0)
-    {
-        count++;
-    }
+//int[] array = { 3, 6, 9, 12, 15, 17, 21, 24, 27, 30 };
+//int count = 0;
+//foreach ( int num in array)
+//if ( num % 2 !=0 && num % 3==0)
+//    {
+//        count++;
+//    }
+//{
+//    Console.WriteLine("hem tek hemde 3e bolunen ededler" + count);
+//}
+
+
+int[] array = { 5, 12, 3, 9, 21, 7, };
+int min = 0;
+int max = 0;
+foreach (int num in array)
 {
-    Console.WriteLine("hem tek hemde 3e bolunen ededler" + count);
+    if (num < min)
+       min = num;
+    if (num > max)
+        max = num;
 }
+int sum = min + max;
+Console.WriteLine(" en min eded" +min);
+Console.WriteLine("en max eded"+ max);
+Console.WriteLine("cem"+ sum);
