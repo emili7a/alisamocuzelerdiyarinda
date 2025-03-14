@@ -62,10 +62,21 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine("array elementlerinin orta qiymeti");
 
 
-int[] Nums = { 1, 2, 3, 4, 5, 6, 7, 8 };
-Console.WriteLine("arraydeki cut ededler");
-for (int i = 0; i < nums.Length; i++) ;
-if (num % 2 == 0)
+//int[] Nums = { 1, 2, 3, 4, 5, 6, 7, 8 };
+//Console.WriteLine("arraydeki cut ededler");
+//for (int i = 0; i < nums.Length; i++) ;
+//if (num % 2 == 0)
+//{
+//    Console.WriteLine("eded");
+//}
+
+
+
+
+int[] nums = { 1, 2, 3, 4, 5, 6 };
+int Sum = 0;
+for (int i = 0; i < nums.Length; i++)
 {
-    Console.WriteLine("eded");
+    sum += nums[i];
 }
+Console.WriteLine("massivdeki elementlerin cemi");
