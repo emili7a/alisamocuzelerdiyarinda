@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System;
+
 Console.WriteLine("Hello, World!");
 
 
@@ -47,22 +49,15 @@ Console.WriteLine("Hello, World!");
 
 
 
-int number = 5;
-if (number > 10 || number < 99)
+
+
+
+int[] ededler = { 12, 13, 14, 15, 16, 17, 18 };
+int cem = 0;
+foreach (int Num in nums) ;
 {
-    Console.WriteLine(" 10 ve 99 arasinda ikireqemli ededi yazin");
+    sum += num;
 }
-int tens = number / 10;
-int units = number % 10;
-if (tens > units)
-{
-    Console.WriteLine("onluq mertebe tekliden boyukdur");
-}
-else if (units > tens)
-{
-    Console.WriteLine("teklik onluqdan boyukdur");
-}
-else
-{
-    Console.WriteLine("beraberdirler");
-}
+double average = (double)sum / (double)nums.Length;
+Console.WriteLine("array elementlerinin orta qiymeti");
+
