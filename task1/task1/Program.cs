@@ -5,14 +5,43 @@ Console.WriteLine("Hello, World!");
 
 
 
-string username = "mario";
-string password = "mario123";
-if (username == "admin" && password == "admin123")
+//string username = "mario";
+//string password = "mario123";
+//if (username == "admin" && password == "admin123")
+//{
+//    Console.WriteLine("xos gelmisiniz");
+//}
+//else
+//{
+//    Console.WriteLine("username ve ya password yalnisdir");
+//}
+
+
+
+int score = 65;
+if (score > 91 && score < 100)
 {
-    Console.WriteLine("xos gelmisiniz");
+    Console.WriteLine("A");
+}
+else if (score > 80 && score < 90)
+{
+    Console.WriteLine("B");
+}
+else if (score > 70 && score < 79)
+{
+    Console.WriteLine("c");
+}
+else if (score > 60 && score < 69)
+{
+    Console.WriteLine("D");
+}
+else if (score > 51 && score < 59)
+{
+    Console.WriteLine("E");
 }
 else
 {
-    Console.WriteLine("username ve ya password yalnisdir");
+    Console.WriteLine("Bdu telebesidirse kesilir");
 }
+
 
