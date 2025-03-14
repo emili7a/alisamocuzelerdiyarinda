@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using System.Runtime.ExceptionServices;
 
 Console.WriteLine("Hello, World!");
 
@@ -108,14 +109,28 @@ Console.WriteLine("Hello, World!");
 
 
 
-int num1 = 12;
-int num2 = 24;
-int sum = num1 + num2;
-if (num1 % 2 == 0 && num2 % 2 == 0)
+//int num1 = 12;
+//int num2 = 24;
+//int sum = num1 + num2;
+//if (num1 % 2 == 0 && num2 % 2 == 0)
+//{
+//    Console.WriteLine("eded qaliqiz bolunur");
+//}
+//else
+//{
+//    Console.WriteLine("daxil olan eded cut olmalidir");
+//}
+
+
+
+
+int[] array = { 3, 6, 9, 12, 15, 17, 21, 24, 27, 30 };
+int count = 0;
+foreach ( int num in array)
+if ( num % 2 !=0 && num % 3==0)
+    {
+        count++;
+    }
 {
-    Console.WriteLine("eded qaliqiz bolunur");
-}
-else
-{
-    Console.WriteLine("daxil olan eded cut olmalidir");
+    Console.WriteLine("hem tek hemde 3e bolunen ededler" + count);
 }
